@@ -15,6 +15,12 @@ We recommend using [flash attention](https://github.com/Dao-AILab/flash-attentio
 ```bash
 pip install flash-attn --no-build-isolation
 ```
+##### Note: Those who are using Google colab or latest versions of tensorflow and numpy will encounter an error in the library of transformers due to a tensorflow specific error. It can be avoided if you install (downgrade your tensorflow and numpy versions slightly)
+
+```Bash
+tensorflow==2.17.1
+numpy==2.1.0
+```
 
 ## Usage
 
